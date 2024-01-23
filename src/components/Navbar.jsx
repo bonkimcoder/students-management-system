@@ -15,16 +15,16 @@ const Navbar = () => {
               <IoMdSchool className="text-gray-100 text-4xl h-8" />
 
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                My School
+                MY School
               </span>
             </a>
           </div>
           <ul className="flex p-5">
             <li className="mr-5">
-              <Link to="/">Grades</Link>
+              <Link to="/">Classes</Link>
             </li>
             <li>
-              <Link to="/GroupedGradeMembers">Classes</Link>
+              <Link to="/GroupedGradeMembers">All Students</Link>
             </li>
           </ul>
         </div>
